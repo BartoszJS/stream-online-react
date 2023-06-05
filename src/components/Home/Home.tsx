@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Home.module.scss";
 
 const Home = () => {
@@ -31,16 +32,16 @@ const Home = () => {
         </div>
       </div>
       <div className={styles.home__refs}>
-        <a href='/stream-online-react/article'>
+        <Link to='/article'>
           <div className={styles.home__refs_button}>Czytaj więcej</div>
-        </a>
-        <a href='/stream-online-react/form'>
+        </Link>
+        <Link to='/form'>
           <div className={styles.home__refs_button}>Kontakt</div>
-        </a>
+        </Link>
 
-        <a href='/stream-online-react/player'>
+        <Link to='/player'>
           <div className={styles.home__refs_button}>Odtwarzacz</div>
-        </a>
+        </Link>
       </div>
     </div>
   );

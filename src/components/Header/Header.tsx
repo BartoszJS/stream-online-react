@@ -1,26 +1,27 @@
+import { Link } from "react-router-dom";
 import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
     <nav className={styles.header}>
       <div className={styles.header__content}>
-        <a href='//stream-online-react'>
+        <Link to='/stream-online-react' className={styles.link}>
           <div className={styles.header__logo}>
             <img
               src={process.env.PUBLIC_URL + "/stream_online_header.svg"}
               alt='svg'
             />
           </div>
-        </a>
+        </Link>
         <ul className={styles.header__list}>
           <li>
-            <a href='/stream-online-react/article'>ARTICLE</a>
+            <Link to='/article'>ARTICLE</Link>
           </li>
           <li>
-            <a href='/stream-online-react/form'>FORM</a>
+            <Link to='/form'>FORM</Link>
           </li>
           <li>
-            <a href='/stream-online-react/player'>PLAYER</a>
+            <Link to='/player'>PLAYER</Link>
           </li>
         </ul>
       </div>
