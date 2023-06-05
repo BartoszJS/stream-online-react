@@ -12,10 +12,10 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/article' element={<Article />} />
-          <Route path='/player' element={<Player />} />
-          <Route path='/form' element={<Form />} />
+          <Route path='/stream-online-react' element={<Home />} />
+          <Route path='stream-online-react/article' element={<Article />} />
+          <Route path='stream-online-react/player' element={<Player />} />
+          <Route path='stream-online-react/form' element={<Form />} />
         </Routes>
       </BrowserRouter>
     </div>
