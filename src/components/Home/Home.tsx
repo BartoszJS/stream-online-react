@@ -31,14 +31,14 @@ const Home = () => {
         </div>
       </div>
       <div className={styles.home__refs}>
-        <a href='/article'>
+        <a href='/stream-online-react/article'>
           <div className={styles.home__refs_button}>Czytaj więcej</div>
         </a>
-        <a href='/form'>
+        <a href='/stream-online-react/form'>
           <div className={styles.home__refs_button}>Kontakt</div>
         </a>
 
-        <a href='/player'>
+        <a href='/stream-online-react/player'>
           <div className={styles.home__refs_button}>Odtwarzacz</div>
         </a>
       </div>
