@@ -23,7 +23,7 @@ const Article = () => {
               process.env.PUBLIC_URL +
               "/infinity-Green-screen-studio-KL-malaysia.jpg"
             }
-            alt=''
+            alt='green_screen'
           />
         </div>
       </div>
@@ -45,7 +45,7 @@ const Article = () => {
         <div className={styles.article__container_photo}>
           <img
             src={process.env.PUBLIC_URL + "/ppv-icon-pay-per-view-vector.jpg"}
-            alt=''
+            alt='ppv_coin'
           />
         </div>
       </div>
@@ -64,7 +64,10 @@ const Article = () => {
           </p>
         </div>
         <div className={styles.article__container_photo}>
-          <img src={process.env.PUBLIC_URL + "/MDR_Kripo_live.JPG"} alt='asa' />
+          <img
+            src={process.env.PUBLIC_URL + "/MDR_Kripo_live.jpg"}
+            alt='live_studio'
+          />
         </div>
       </div>
     </div>
